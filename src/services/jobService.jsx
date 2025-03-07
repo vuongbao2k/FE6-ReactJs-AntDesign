@@ -1,4 +1,4 @@
-import { get, del } from "../utils/request";
+import { get, post, del } from "../utils/request";
 
 export const deleteJob = async (id) => {
   const result = await del(`jobs/${id}`);
@@ -17,5 +17,10 @@ export const getDetailJob = async (id) => {
 
 export const getListJob = async (id) => {
   const result = await get(`jobs?idCompany=${id}`);
+  return result;
+}
+
+export const createJob = async (options) => {
+  const result = await post(`jobs`, options);
   return result;
 }

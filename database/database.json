@@ -118,6 +118,26 @@
         "Hà Nội"
       ],
       "updateAt": "30-04-2023 19:05:13"
+    },
+    {
+      "name": "Test",
+      "tags": [
+        "TypeScript",
+        "CSS",
+        "HTML",
+        "Javascript"
+      ],
+      "salary": "500",
+      "city": [
+        "Hồ Chí Minh",
+        "Hà Nội",
+        "Đà Nẵng"
+      ],
+      "description": "Test Description",
+      "status": true,
+      "idCompany": "1",
+      "createAt": "07-02-2025 21:36:11",
+      "id": 5
     }
   ],
   "cv": [
@@ -170,7 +190,7 @@
       "id": 1,
       "quantityPeople": 8,
       "description": "Description Company A Description Description Description Description",
-      "detail": "High salary",
+      "detail": "High salary High salary High salary High salary High salary",
       "address": "123 Tran Phu",
       "workingTime": "T2 - T6",
       "website": "https://coma.com"
@@ -202,6 +222,14 @@
       "address": "17 Paster",
       "workingTime": "T2 - T6",
       "website": "https://comc.com"
+    },
+    {
+      "companyName": "Four Company",
+      "email": "companyd@gmail.com",
+      "phone": "0909090904",
+      "password": "123456",
+      "token": "jcEd3zkeGi8kvujA9v4g",
+      "id": 4
     }
   ]
 }
