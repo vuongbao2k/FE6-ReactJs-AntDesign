@@ -1,0 +1,207 @@
+{
+  "city": [
+    {
+      "key": 1,
+      "value": "Hà Nội"
+    },
+    {
+      "key": 2,
+      "value": "Hồ Chí Minh"
+    },
+    {
+      "key": 3,
+      "value": "Đà Nẵng"
+    }
+  ],
+  "tags": [
+    {
+      "key": 1,
+      "value": "HTML"
+    },
+    {
+      "key": 2,
+      "value": "CSS"
+    },
+    {
+      "key": 3,
+      "value": "Javascript"
+    },
+    {
+      "key": 4,
+      "value": "Java"
+    },
+    {
+      "key": 5,
+      "value": "Python"
+    },
+    {
+      "key": 6,
+      "value": "ReactJS"
+    },
+    {
+      "key": 7,
+      "value": "Angular"
+    },
+    {
+      "key": 8,
+      "value": "TypeScript"
+    }
+  ],
+  "jobs": [
+    {
+      "idCompany": 1,
+      "name": "Frontend Dev (Angular/ReactJS)",
+      "tags": [
+        "ReactJS",
+        "Angular",
+        "TypeScript"
+      ],
+      "salary": 1000,
+      "description": "Description Description Description Description Description",
+      "status": true,
+      "createAt": "29-04-2023 21:22:23",
+      "id": 1,
+      "city": [
+        "Đà Nẵng"
+      ],
+      "updateAt": "30-04-2023 19:05:13"
+    },
+    {
+      "idCompany": 2,
+      "name": "Backend Dev",
+      "tags": [
+        "Java",
+        "Javascript",
+        "TypeScript"
+      ],
+      "salary": 900,
+      "description": "Description Description Description Description Description",
+      "status": true,
+      "createAt": "19-04-2023 21:22:23",
+      "id": 2,
+      "city": [
+        "Hà Nội"
+      ],
+      "updateAt": "20-05-2023 19:05:13"
+    },
+    {
+      "idCompany": 1,
+      "name": "Fresher Frontend Dev (Angular/ReactJS)",
+      "tags": [
+        "ReactJS",
+        "Angular",
+        "TypeScript"
+      ],
+      "salary": 500,
+      "description": "Description Description Description Description Description",
+      "status": true,
+      "createAt": "29-04-2023 21:22:23",
+      "id": 3,
+      "city": [
+        "Đà Nẵng"
+      ],
+      "updateAt": "30-04-2023 19:05:13"
+    },
+    {
+      "idCompany": 3,
+      "name": "Frontend Dev",
+      "tags": [
+        "ReactJS"
+      ],
+      "salary": 700,
+      "description": "Description Description Description Description Description",
+      "status": true,
+      "createAt": "29-04-2023 21:22:23",
+      "id": 4,
+      "city": [
+        "Hồ Chí Minh",
+        "Hà Nội"
+      ],
+      "updateAt": "30-04-2023 19:05:13"
+    }
+  ],
+  "cv": [
+    {
+      "id": 1,
+      "idCompany": 2,
+      "idJob": 2,
+      "name": "Jessica",
+      "phone": "0909797979",
+      "email": "jessica@gmail.com",
+      "statusRead": true,
+      "description": "Hi, my name is Jessica",
+      "linkProject": "",
+      "createAt": "29-05-2023 21:25:23",
+      "city": "Hà Nội"
+    },
+    {
+      "id": 2,
+      "idCompany": 1,
+      "idJob": 1,
+      "name": "Tom",
+      "phone": "0909696969",
+      "email": "tom@gmail.com",
+      "statusRead": true,
+      "description": "Hi, my name is Tom",
+      "linkProject": "",
+      "createAt": "01-05-2023 11:22:23",
+      "city": "Đà Nẵng"
+    },
+    {
+      "name": "Ja Bao",
+      "phone": "0320909099",
+      "email": "jabao@gmail.com",
+      "city": "Hồ Chí Minh",
+      "description": "Hi, my name is Bao",
+      "linkProject": "github/jabao/project",
+      "idJob": 4,
+      "idCompany": 3,
+      "createAt": "06-02-2025 21:22:06",
+      "id": 3
+    }
+  ],
+  "company": [
+    {
+      "companyName": "Công ty AAA",
+      "phone": "0909090101",
+      "email": "companya@gmail.com",
+      "password": "123456",
+      "token": "aj8FkK25wFwiRts6KPdW",
+      "id": 1,
+      "quantityPeople": 8,
+      "description": "Description Company A Description Description Description Description",
+      "detail": "High salary",
+      "address": "123 Tran Phu",
+      "workingTime": "T2 - T6",
+      "website": "https://coma.com"
+    },
+    {
+      "companyName": "Công ty B",
+      "phone": "0909090202",
+      "email": "companyb@gmail.com",
+      "password": "123456",
+      "token": "bj8FkR25wIwiRts6KPdW",
+      "id": 2,
+      "quantityPeople": 5,
+      "description": "Description Company B Description Description Description Description",
+      "detail": "High salary",
+      "address": "1 Dang Van Ngu",
+      "workingTime": "T2 - T6",
+      "website": "https://comb.com"
+    },
+    {
+      "companyName": "Công ty C",
+      "phone": "0909090203",
+      "email": "companyc@gmail.com",
+      "password": "123456",
+      "token": "cj8FkR25wIwiRts6KPdW",
+      "id": 3,
+      "quantityPeople": 5,
+      "description": "Description Company C Description Description Description Description",
+      "detail": "High salary",
+      "address": "17 Paster",
+      "workingTime": "T2 - T6",
+      "website": "https://comc.com"
+    }
+  ]
+}
