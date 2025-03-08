@@ -1,10 +1,24 @@
+
+.footer {
+  background: darkgray;;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
 .layout-default {
   &__header {
-    background: orange;
+    background: lightgray;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
+  }
+
+  &__logo {
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
   }
 
   &__main {
