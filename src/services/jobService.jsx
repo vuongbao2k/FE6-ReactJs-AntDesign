@@ -1,4 +1,4 @@
-import { get, post, del } from "../utils/request";
+import { get, post, patch, del } from "../utils/request";
 
 export const deleteJob = async (id) => {
   const result = await del(`jobs/${id}`);
@@ -22,5 +22,10 @@ export const getListJob = async (id) => {
 
 export const createJob = async (options) => {
   const result = await post(`jobs`, options);
+  return result;
+}
+
+export const updateJob = async (id, options) => {
+  const result = await patch(`jobs/${id}`, options);
   return result;
 }

@@ -118,26 +118,6 @@
         "Hà Nội"
       ],
       "updateAt": "30-04-2023 19:05:13"
-    },
-    {
-      "name": "Test",
-      "tags": [
-        "TypeScript",
-        "CSS",
-        "HTML",
-        "Javascript"
-      ],
-      "salary": "500",
-      "city": [
-        "Hồ Chí Minh",
-        "Hà Nội",
-        "Đà Nẵng"
-      ],
-      "description": "Test Description",
-      "status": true,
-      "idCompany": "1",
-      "createAt": "07-02-2025 21:36:11",
-      "id": 5
     }
   ],
   "cv": [
